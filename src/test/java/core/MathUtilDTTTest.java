@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MathUtilDTTTest {
 
-
+    //DDT DATA DRIVEN TESTING
     public static Object[][] initTestData(){
         Object[][] testData = {
                 {0,1},
