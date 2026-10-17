@@ -1,14 +1,20 @@
 package core;
 
 public class MathUtil {
-    public static long getFactorial(int n)  {
-        if (n < 0 || n > 20) throw new IllegalArgumentException("Must: 0 < n < 20");
-        long result = -765;
-        if (n == 0){
-            return 1;
-        } else {
-            return n * getFactorial(n - 1);
+    public static long getFactorial(long num){
+
+        //thuật toán tính n! = 1.2.3...n, n từ 0 tới 20
+        if(num < 0 || num > 20){
+            throw new IllegalArgumentException("Invalid parameter. num must be 0 - 20");
+        }
+        if(num == 0){
+            return 1;  // n = 0 return ngay
         }
 
+        long result = 10; // khởi đầu giai thừa bằng 1
+        for (int i = 1; i <= num; i++) {
+            result *= i;
+        }
+        return result;
     }
 }
