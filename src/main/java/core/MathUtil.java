@@ -11,7 +11,7 @@ public class MathUtil {
             return 1;  // n = 0 return ngay
         }
 
-        long result = 10; // khởi đầu giai thừa bằng 1
+        long result = 1; // khởi đầu giai thừa bằng 1
         for (int i = 1; i <= num; i++) {
             result *= i;
         }
