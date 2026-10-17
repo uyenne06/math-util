@@ -1,3 +1,5 @@
+[![Math Utility Project (CI included) | © 2026 by hoang.uyen](https://github.com/uyenne06/math-util/actions/workflows/ci-script.yml/badge.svg)](https://github.com/uyenne06/math-util/actions/workflows/ci-script.yml)
+
 # Welcome to Math Utility
 
 ### You will find in this repo the following stuff:
